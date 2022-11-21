@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "../../../axios";
 const Home = () => {
   const [countSuppliers, setCountSuppliers] = useState(0);
   const [countItems, setCountItems] = useState(0);
