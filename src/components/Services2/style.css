@@ -1,0 +1,73 @@
+
+/*hx-service-area start*/
+
+.hx-service-area,
+.hx-service-style-1 {
+    background: #f8f8f8;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.hx-service-single {
+    overflow: hidden;
+}
+
+.hx-service-single {
+    position: relative;
+    overflow: hidden;
+    transition: all .3s;
+    margin-bottom: 30px;
+}
+
+.hx-service-content {
+    padding: 11px 30px 20px;
+    position: absolute;
+    left: 0;
+    top: 85%;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hx-service-single:hover .hx-service-content {
+    top: 0;
+    background: rgba(237, 82, 23, .95);
+}
+
+.hx-service-content p {
+    padding: 1px 0 0px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.hx-service-content h2 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.hx-service-content h2 a{
+    color: #fff;
+}
+.service-p {
+    padding-left: 60px;
+}
+
+
+.service-img img {
+    width: 100%;
+}

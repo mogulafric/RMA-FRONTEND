@@ -1,0 +1,92 @@
+/*======================================
+0.6 service-area
+=======================================*/
+
+ol.olStyle {
+    list-style-type: square;
+  }
+
+  ol.olStyleImgSchserv {
+    list-style-image: url("../../images/service/bmw.png"); 
+    margin-left: 30px;   
+}
+ol.olStyleImgMerc {
+    list-style-image: url("../../images/service/merce.png"); 
+    margin-left: 30px;   
+}
+
+.hx-service-style-1 {
+    background: #f8f8f8;
+}
+
+.hx-service-wrap {
+    padding: 48px 41px 45px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.hx-service-icon {
+    color: #ed5217;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08) !important;
+    margin-bottom: 10px;
+    position: relative;
+}
+.hx-service-icon i {
+    font-size: 35px;
+    line-height: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hx-service-icon .fi:before {
+    font-size: 35px;
+}
+.hx-service-icon .flaticon-turbo:before, 
+.hx-service-icon .flaticon-tyre:before,  
+.hx-service-icon .flaticon-car-1:before {
+     font-size: 40px;
+}
+.hx-service-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hx-service-text h2 a{
+    color: #444;
+}
+.hx-service-text h2 a:hover{
+    color: #ed5217;
+}
+
+.hx-service-text p {
+    margin-bottom: 0;
+    color: #777;
+}
+
+.hx-service-style-2 {
+    background: #fafbfe;
+}
+
+.hx-service-style-2 .hx-service-wrap {
+    border: none;
+    background: #fff;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+}
+.hx-service-wrap:hover {
+    box-sizing: border-box;
+    webkit-transform: translateY(-10px) !important;
+    -ms-transform: translateY(-10px) !important;
+    transform: translateY(-10px) !important;
+}

@@ -1,0 +1,50 @@
+/*=======================
+3.2 work-area start
+========================*/
+.hx-work-area {
+    background: #f8f8f8;
+}
+
+.hx-work-content h4,
+.hx-work-content-2 h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-left: 10px;
+    color: #444;
+}
+
+.hx-work-content {
+    margin-top: 10px;
+}
+
+.hx-work-content span,
+.hx-work-content-2 span {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ed5217;
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hx-work-content ul,
+.hx-work-content-2 ul {
+    display: flex;
+}
+
+.hx-work-single {
+    margin-bottom: 30px;
+}
+
+.hx-work-img img {
+    width: 100%;
+}
+
+.hx-work-content-2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

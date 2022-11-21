@@ -1,0 +1,78 @@
+/*.===============================
+0.9 counter-area
+===============================*/
+.hx-counter-area,
+.counter-style-2 {
+    padding: 50px 0 30px;
+    background: url(../../images/emergency/1.jpg) no-repeat center center / cover;
+    position: relative;
+}
+
+.hx-counter-area:before,
+.counter-style-2:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 47, 79, .7);
+}
+
+.hx-counter-area .hx-counter-grids .grid,
+.counter-style-2 .hx-counter-grids .grid {
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hx-counter-area .hx-counter-grids .grid p,
+.counter-style-2 .hx-counter-grids .grid p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.hx-counter-area .hx-counter-grids,
+.counter-style-2 .hx-counter-grids {
+    overflow: hidden;
+    position: relative;
+}
+
+.hx-counter-area .odometer.odometer-auto-theme,
+.hx-counter-area .odometer.odometer-theme-default,
+.counter-style-2 .odometer.odometer-auto-theme,
+.counter-style-2 .odometer.odometer-theme-default {
+    line-height: 0.8em;
+}
+
+.hx-counter-area .hx-counter-grids .grid h2,
+.counter-style-2 .hx-counter-grids .grid h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    line-height: 10px;
+    margin-top: 8px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.hx-counter-area .hx-counter-grids .grid h2:before,
+.counter-style-2 .hx-counter-grids .grid h2:before {
+    content: "";
+    position: absolute;
+    left: 39%;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    background: #fd6b36ab;
+    border-radius: 20px;
+}
+
+.hx-counter-icon .fi {
+    color: #fafbfe;
+}

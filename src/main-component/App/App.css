@@ -1,0 +1,215 @@
+/*---------------------------
+  Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+/*--------------------------------------------------------------
+#0.1    Theme Reset Style
+--------------------------------------------------------------*/
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Demi.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('../../fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+body.body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    color: #333;
+}
+
+@media (max-width: 767px) {
+    body.body {
+        font-size: 15px;
+    }
+}
+
+.App{
+    overflow-x: hidden;
+}
+
+p {
+    color: #666;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Futura PT';
+    color: #353535;
+}
+h1,
+h2,
+h3,
+h4{
+    font-weight: 600;
+}
+.body ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none!important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+img {
+    max-width: 100%;
+}
+
+button,
+a:focus {
+    outline: none!important;
+}
+
+.features-padding {
+    padding: 100px 0;
+}
+
+@media (max-width: 991px) {
+    .features-padding {
+        padding: 90px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .features-padding {
+        padding: 80px 0;
+    }
+}
+
+/*** back to top **/
+.back-to-top {
+    background-color: #ed5217;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+@media (max-width: 991px) {
+    .back-to-top {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
+.back-to-top:hover {
+    background-color: #f84e0e;
+}
+
+.back-to-top i {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.features-padding {
+    padding: 100px 0;
+}
+
+.hx-section-padding {
+    padding: 100px 0;
+}
+
+.ptb-100-70 {
+    padding: 100px 0 78px;
+}
+
+
+.fixed-navbar {
+    position: relative;
+    z-index: 5555;
+  }
+  
+  .fixed-navbar.active .hx-header-style-1,
+  .fixed-navbar.active .hx-header-style-2,
+  .fixed-navbar.active .header-style-3 {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    opacity: 1;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+  }
+
+  .fixed-navbar.active .hx-header-style-2{
+      background: #072f4f;
+  }

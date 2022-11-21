@@ -1,0 +1,197 @@
+/*=================================
+9.0 blog-page-style
+==================================*/
+
+/*--------------------------------------------------------------
+blog page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+hx-blog-pg-section 
+--------------------------------------------------------------*/
+.hx-blog-pg-section {
+  /*** format-video ***/
+  /*** format-quote ***/
+}
+
+.hx-blog-pg-section .hx-blog-posts>.post {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+  .hx-blog-pg-section .hx-blog-posts>.post {
+      margin-bottom: 70px;
+  }
+}
+
+.hx-blog-pg-section .post .details {
+  background-color: #fafbfe;
+  padding: 35px 40px;
+}
+
+@media (max-width: 991px) {
+  .hx-blog-pg-section .post .details {
+      padding: 35px 20px;
+  }
+}
+
+.hx-blog-pg-section .entry-meta {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.hx-blog-pg-section .entry-meta>li {
+  font-size: 14px;
+  font-size: 0.875rem;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .hx-blog-pg-section .entry-meta>li {
+      font-size: 13px;
+      font-size: 0.8125rem;
+  }
+}
+
+.hx-blog-pg-section .entry-meta>li+li {
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-top: 9px;
+  position: relative;
+}
+
+.hx-blog-pg-section .entry-meta>li+li:before {
+  content: "|";
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
+.hx-blog-pg-section .entry-meta li a {
+  color: #ed5217;
+}
+
+.hx-blog-pg-section .entry-meta img {
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+}
+
+.hx-blog-pg-section .details h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin: 0 0 0.8em;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .hx-blog-pg-section .details h3 {
+      font-size: 22px;
+      font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hx-blog-pg-section .details h3 {
+      font-size: 20px;
+      font-size: 1.25rem;
+  }
+}
+
+.hx-blog-pg-section .details h3 a {
+  color: #283a5e;
+}
+
+.hx-blog-pg-section .details h3 a:hover {
+  color: #ed5217;
+}
+
+.hx-blog-pg-section .details p {
+  margin-bottom: 1.5em;
+}
+
+.hx-blog-pg-section .details .read-more {
+  font-weight: 500;
+  color: #ed5217;
+}
+
+.hx-blog-pg-section .details .read-more:hover {
+  color: #fe4702;
+}
+
+.hx-blog-pg-section .format-video .video-holder {
+  position: relative;
+  text-align: center;
+}
+
+.hx-blog-pg-section .format-video .video-holder:before {
+  content: "";
+  background-color: rgba(254, 108, 53, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.hx-blog-pg-section .format-video .video-holder:hover:before {
+  background-color: rgba(254, 108, 53, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hx-blog-pg-section .format-video .video-holder button.wrap {
+  width: 78px;
+  height: 78px;
+  line-height: 78px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+}
+
+.hx-blog-pg-section .format-video .video-holder i {
+  font-size: 50px;
+  font-size: 3.125rem;
+}
+
+.hx-blog-pg-section .format-video .video-holder .flaticon-play-button:before {
+  content: "\f10a";
+  font-size: 70px;
+  color: #ed5217;
+  background: rgba(237, 82, 23, .40);
+  border-radius: 50%;
+}
+
+.hx-blog-pg-section .format-quote .details {
+  background-color: #fdf0eb;
+  position: relative;
+}
+
+.hx-blog-pg-section .format-quote .details:before {
+  content: "";
+  background: url("../../images/blog/quote.png") center center/auto no-repeat local;
+  width: 55px;
+  height: 44px;
+  position: absolute;
+  right: 40px;
+  top: 35px;
+}
+
+.hx-blog-posts .entry-media img {
+  width: 100%;
+}

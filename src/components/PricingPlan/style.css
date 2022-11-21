@@ -1,0 +1,78 @@
+/*===========================================
+0.7 pricing-area
+============================================*/
+.hx-pricing-section {
+    padding: 100px 0;
+    position: relative;
+    padding-bottom: 70px;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+
+.hx-pricing-content ul {
+    display: inline-block;
+}
+.hx-pricing-content .nav-tabs{
+    border: 0;
+}
+
+.hx-pricing-content ul li a.nav-link {
+    display: block;
+    width: 160px;
+    height: 104px;
+    line-height: 100px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 55px;
+    background: transparent;
+    margin-bottom: 45px;
+    color: #bbb;
+    transition: all .3s;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hx-pricing-content ul li a.nav-link:hover {
+    background: #ed5217;
+    color: #fff;
+}
+
+.hx-pricing-content ul li a.nav-link.active{
+    background: #ed5217;
+    color: #fff;
+}
+
+.hx-pricing-img {
+    position: relative;
+}
+
+.hx-pricing-text {
+    position: absolute;
+    left: 4px;
+    bottom: -12px;
+    background: rgba(7, 47, 79, 0.76);
+    padding: 20px 30px;
+}
+
+.hx-pricing-text span {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Futura PT';
+    color: #ed5117;
+}
+
+.hx-pricing-text h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hx-pricing-text h4 a {
+    color: #fff;
+}
+
+.hx-pricing-text p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 0;
+}

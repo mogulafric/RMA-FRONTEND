@@ -1,0 +1,20 @@
+.brand-link{
+    background-color: #072F4F !important;
+    color: #fff !important;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.main-header, .navbar, .navbar-expand, .navbar-white, .navbar-light, .main-header> a {
+    background-color: #072F4F !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.mt-2> .nav-item > p {
+    color: #fff !important;
+    font-size: 12px !important;
+}
+.main-sidebar{
+    height: 100%;
+
+}

@@ -1,0 +1,15 @@
+/*=====================================
+1.2 client-area start
+======================================*/
+.hx-client-area {
+    padding: 100px 0;
+}
+
+.hx-client-area  img {
+    transform-style: preserve-3d;
+    width: unset!important;
+}
+
+.hx-client-area .slick-list{
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+/*==============================================
+3.1 features-area
+================================================*/
+.hx-features-icon i.fi {
+    background: #f5f5f5;
+    padding: 57px 70px 30px 56px;
+    transition: all .5s;
+    border: 1px solid #ddd;
+}
+
+.col-d {
+    padding: 0;
+}
+
+.hx-features-area {
+    background: #f8f8f8;
+    padding: 30px 0 0;
+}
+
+.hx-features-area .features-item {
+    overflow: hidden;
+}
+
+.hx-features-area .hx-features-icon {
+    margin-top: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hx-features-area .hx-features-item-2 {
+    margin-bottom: 30px;
+}
+
+.hx-features-area .hx-features-content p a:hover {
+    color: #199ca4;
+}
+
+.hx-features-area.features-style-3 .hx-features-content {
+    text-align: left;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.hx-features-content h3 {
+    color: #444;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.hx-features-area .hx-features-content p {
+    font-size: 15px;
+    color: #777;
+}
+
+.hx-features-area .hx-features-icon i.fi {
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    line-height: 100px;
+    text-align: center;
+    margin-right: 20px;
+    color: #ed5217;
+    margin-left: 15px;
+}
+
+.hx-features-area .hx-features-content p {
+    margin-bottom: 0px;
+}
+
+.hx-features-content {
+    overflow: hidden;
+}
+
+.col-p {
+    padding-left: 0;
+}

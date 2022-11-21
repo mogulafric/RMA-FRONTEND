@@ -1,0 +1,12 @@
+.main-header, .navbar, .navbar-expand, .navbar-white, .navbar-light, .main-header> a {
+    background-color: #3c8dbc !important;
+    color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #fff !important;
+}
+
+.inline{
+  display: inline-block; 
+}
+
